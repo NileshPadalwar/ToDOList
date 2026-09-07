@@ -63,7 +63,7 @@ To-Do-List/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/NileshPadalwar/ToDOList.git
 ```
 
 ### 2. Navigate to the Project
