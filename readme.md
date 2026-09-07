@@ -112,9 +112,6 @@ The application uses the browser's **Local Storage API** to persist tasks.
 
 When a task is added, completed, or deleted, the task list is stored using:
 
-```javascript
-localStorage.setItem("data", listContainer.innerHTML);
-```
 
 When the application starts, previously saved tasks are retrieved using:
 
@@ -124,43 +121,7 @@ localStorage.getItem("data");
 
 This allows tasks to remain available even after the browser page is refreshed.
 
-## 🧠 Key JavaScript Concepts Demonstrated
 
-### DOM Manipulation
-
-The application dynamically creates task elements using JavaScript:
-
-```javascript
-let li = document.createElement("li");
-li.innerHTML = inputBox.value;
-listContainer.appendChild(li);
-```
-
-### Event Handling
-
-A click event listener is used to handle completing and deleting tasks:
-
-```javascript
-listContainer.addEventListener("click", function(e) {
-    // Handle task actions
-});
-```
-
-### CSS Class Manipulation
-
-Completed tasks are handled using:
-
-```javascript
-e.target.classList.toggle("checked");
-```
-
-### Local Storage
-
-Task information is persisted in the browser using:
-
-```javascript
-localStorage.setItem("data", listContainer.innerHTML);
-```
 
 ## 📱 Responsive Design
 
