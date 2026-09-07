@@ -3,7 +3,11 @@
 A simple and responsive **To-Do List Web Application** built using **HTML, CSS, and JavaScript**. The application allows users to add, complete, and delete tasks while automatically saving the task data in the browser using **Local Storage**.
 
 ## 🚀 Live Demo
+https://nileshpadalwar.github.io/ToDOList/
 
+## 📸 Application Screenshot
+
+![TODO List Application ](images/project-preview.png)
 
 ## 📌 Project Overview
 
